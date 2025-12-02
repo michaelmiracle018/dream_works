@@ -714,20 +714,20 @@
   dependencies:
     "@isaacs/balanced-match" "^4.0.1"
 
-"@jimmy.codes/eslint-config@6.24.0":
-  version "6.24.0"
-  resolved "https://registry.yarnpkg.com/@jimmy.codes/eslint-config/-/eslint-config-6.24.0.tgz#9d977c19544afe4bbf7f7c953323f1a324339a62"
-  integrity sha512-UUASCvmO+WZ0hLmvWP53IFG6YmbGtLTXBj7D5m+LgsF2CLQ5mmoU+SdJMYmcAHOd8RJNuIygRyz80+tya+rRWw==
+"@jimmy.codes/eslint-config@6.24.1":
+  version "6.24.1"
+  resolved "https://registry.yarnpkg.com/@jimmy.codes/eslint-config/-/eslint-config-6.24.1.tgz#86deedda317cd1fd4a1033a76107ec7f7dddf66d"
+  integrity sha512-RIpd7aTtlpITTAczfIE0Q1jdGhnbenc9CABxiLXDqNaaqN1b/vIlHUeHSG8tBwsMeWeS0BItk6Y6V5CTlQp3Kg==
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments" "^4.5.0"
     "@eslint/js" "^9.39.1"
-    "@next/eslint-plugin-next" "^16.0.4"
+    "@next/eslint-plugin-next" "^16.0.6"
     "@stylistic/eslint-plugin" "^5.6.1"
     "@tanstack/eslint-plugin-query" "^5.91.2"
     "@types/eslint" "9.6.1"
     "@typescript-eslint/parser" "^8.48.0"
     "@typescript-eslint/utils" "^8.48.0"
-    "@vitest/eslint-plugin" "^1.5.0"
+    "@vitest/eslint-plugin" "^1.5.1"
     astro-eslint-parser "^1.2.2"
     eslint-config-flat-gitignore "^2.1.0"
     eslint-config-prettier "^10.1.8"
@@ -742,7 +742,7 @@
     eslint-plugin-jsx-a11y "^6.10.2"
     eslint-plugin-n "^17.23.1"
     eslint-plugin-perfectionist "^4.15.1"
-    eslint-plugin-playwright "^2.3.0"
+    eslint-plugin-playwright "^2.4.0"
     eslint-plugin-react-compiler "19.1.0-rc.2"
     eslint-plugin-react-dom "^2.3.9"
     eslint-plugin-react-hooks "^7.0.1"
@@ -759,14 +759,14 @@
     local-pkg "^1.1.2"
     typescript-eslint "^8.48.0"
 
-"@jimmy.codes/prettier-config@2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@jimmy.codes/prettier-config/-/prettier-config-2.1.1.tgz#82e1daa5dc9e9e82f1c5edb0dc85fa1577a69b20"
-  integrity sha512-1OngyAoZlKCDgBnIwpoRaQ37KZF/WBU4AZGFSSyDubX2PfsEuXR3Mgd2idEqHIpCOyCgMjHPr2Qd/eyFvcC/Vg==
+"@jimmy.codes/prettier-config@2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@jimmy.codes/prettier-config/-/prettier-config-2.1.2.tgz#52213b35c1bdf915e986ad27fce661fcbca6d2a7"
+  integrity sha512-n/KeVnPXy9YrM88Pl3yfuQms15DGOVVEbwmLMTEremPkDwe1HsrhW+GysH6NlBDmtuoxs+OSzoHeqz8YTPCaXg==
   dependencies:
     prettier-plugin-astro "0.14.1"
-    prettier-plugin-packagejson "^2.5.19"
-    prettier-plugin-tailwindcss "0.7.1"
+    prettier-plugin-packagejson "^2.5.20"
+    prettier-plugin-tailwindcss "0.7.2"
 
 "@jridgewell/gen-mapping@^0.3.12", "@jridgewell/gen-mapping@^0.3.5":
   version "0.3.13"
@@ -837,10 +837,10 @@
     "@emnapi/runtime" "^1.5.0"
     "@tybys/wasm-util" "^0.10.1"
 
-"@next/eslint-plugin-next@^16.0.4":
-  version "16.0.4"
-  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-16.0.4.tgz#a9882d742468cda47e7267bdf2161139cdb214a0"
-  integrity sha512-0emoVyL4Z5NEkRNb63ko/BqLC9OFULcY7mJ3lSerBCqgh/UFcjnvodyikV2bTl7XygwcamJxJAfxCo1oAVfH6g==
+"@next/eslint-plugin-next@^16.0.6":
+  version "16.0.6"
+  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-16.0.6.tgz#ded9d22f64aa8eabbae6ddbd6477f9cb2410bf80"
+  integrity sha512-9INsBF3/4XL0/tON8AGsh0svnTtDMLwv3iREGWnWkewGdOnd790tguzq9rX8xwrVthPyvaBHhw1ww0GZz0jO5Q==
   dependencies:
     fast-glob "3.3.1"
 
@@ -1263,19 +1263,6 @@
   dependencies:
     "@tanstack/store" "0.8.0"
     use-sync-external-store "^1.6.0"
-
-"@tanstack/router-core@1.139.10":
-  version "1.139.10"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.139.10.tgz#eacfed0e349091953905486714a5e8446879b21c"
-  integrity sha512-gougqlYumNOn98d2ZhyoRJTNT8RvFip97z6T2T3/JTPrErwOsKaIA2FwlkfLJmJY1JQtUuF38IREJdfQrTJiqg==
-  dependencies:
-    "@tanstack/history" "1.139.0"
-    "@tanstack/store" "^0.8.0"
-    cookie-es "^2.0.0"
-    seroval "^1.4.0"
-    seroval-plugins "^1.4.0"
-    tiny-invariant "^1.3.3"
-    tiny-warning "^1.0.3"
 
 "@tanstack/router-core@1.139.12":
   version "1.139.12"
@@ -1882,10 +1869,10 @@
     std-env "^3.10.0"
     tinyrainbow "^3.0.3"
 
-"@vitest/eslint-plugin@^1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@vitest/eslint-plugin/-/eslint-plugin-1.5.0.tgz#71ace25c30b29d302f4de9c1a9440fe505bdc3c8"
-  integrity sha512-j3uuIAPTYWYnSit9lspb08/EKsxEmGqjQf+Wpb1DQkxc+mMkhL58ZknDCgjYhY4Zu76oxZ0hVWTHlmRW0mJq5w==
+"@vitest/eslint-plugin@^1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@vitest/eslint-plugin/-/eslint-plugin-1.5.1.tgz#90cab189bcaf37b86000694d5803fe65774905e4"
+  integrity sha512-t49CNERe/YadnLn90NTTKJLKzs99xBkXElcoUTLodG6j1G0Q7jy3mXqqiHd3N5aryG2KkgOg4UAoGwgwSrZqKQ==
   dependencies:
     "@typescript-eslint/scope-manager" "^8.46.1"
     "@typescript-eslint/utils" "^8.46.1"
@@ -2861,10 +2848,10 @@ eslint-plugin-perfectionist@^4.15.1:
     "@typescript-eslint/utils" "^8.38.0"
     natural-orderby "^5.0.0"
 
-eslint-plugin-playwright@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-playwright/-/eslint-plugin-playwright-2.3.0.tgz#e14dfe981455254bbf5a7299802f5c01bb93d148"
-  integrity sha512-7UeUuIb5SZrNkrUGb2F+iwHM97kn33/huajcVtAaQFCSMUYGNFvjzRPil5C0OIppslPfuOV68M/zsisXx+/ZvQ==
+eslint-plugin-playwright@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-playwright/-/eslint-plugin-playwright-2.4.0.tgz#9ddcf123f3cbfc92b602b462bd1be2f10380acd8"
+  integrity sha512-MWNXfXlLfwXAjj4Z80PvCCFCXgCYy5OCHan57Z/beGrjkJ3maG1GanuGX8Ck6T6fagplBx2ZdkifxSfByftaTQ==
   dependencies:
     globals "^16.4.0"
 
@@ -3874,10 +3861,10 @@ keyv@^4.5.4:
   dependencies:
     json-buffer "3.0.1"
 
-knip@5.70.2:
-  version "5.70.2"
-  resolved "https://registry.yarnpkg.com/knip/-/knip-5.70.2.tgz#daadc3aff42d696e442ced6395cca82bccfba892"
-  integrity sha512-LI7DbeVnk7h9+FAet5KzzHNdDwJyqDa2+cn4uQfZYTfpuVjEqtGmYD9r5b9JEuOs4eVkf/7sskNhWXxELm3C/Q==
+knip@5.71.0:
+  version "5.71.0"
+  resolved "https://registry.yarnpkg.com/knip/-/knip-5.71.0.tgz#c1fcdb07a838ba598aa1f879da51565e9b9c65eb"
+  integrity sha512-hwgdqEJ+7DNJ5jE8BCPu7b57TY7vUwP6MzWYgCgPpg6iPCee/jKPShDNIlFER2koti4oz5xF88VJbKCb4Wl71g==
   dependencies:
     "@nodelib/fs.walk" "^1.2.3"
     fast-glob "^3.3.3"
@@ -4452,18 +4439,18 @@ prettier-plugin-astro@0.14.1:
     prettier "^3.0.0"
     sass-formatter "^0.7.6"
 
-prettier-plugin-packagejson@^2.5.19:
-  version "2.5.19"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-packagejson/-/prettier-plugin-packagejson-2.5.19.tgz#2e25664fe828ac6c5660b765a598ca075e3587bc"
-  integrity sha512-Qsqp4+jsZbKMpEGZB1UP1pxeAT8sCzne2IwnKkr+QhUe665EXUo3BAvTf1kAPCqyMv9kg3ZmO0+7eOni/C6Uag==
+prettier-plugin-packagejson@^2.5.20:
+  version "2.5.20"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-packagejson/-/prettier-plugin-packagejson-2.5.20.tgz#345297ddcb0682892c8c71819e0de6f82f325c3b"
+  integrity sha512-G8cowPh+QmJJECTZlrPDKWkVVcwrFjF2rGcw546w3N8blLoc4szSs8UUPfFVxHUNLUjiru71Ah83g1lZkeK9Bw==
   dependencies:
-    sort-package-json "3.4.0"
+    sort-package-json "3.5.0"
     synckit "0.11.11"
 
-prettier-plugin-tailwindcss@0.7.1:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.7.1.tgz#0cb15246668788e62b5b752868f5e01f0ce7eec9"
-  integrity sha512-Bzv1LZcuiR1Sk02iJTS1QzlFNp/o5l2p3xkopwOrbPmtMeh3fK9rVW5M3neBQzHq+kGKj/4LGQMTNcTH4NGPtQ==
+prettier-plugin-tailwindcss@0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.7.2.tgz#8de2039fc0363b8532ef5a2d3fc9e2c1b6ca3bd4"
+  integrity sha512-LkphyK3Fw+q2HdMOoiEHWf93fNtYJwfamoKPl7UwtjFQdei/iIBoX11G6j706FzN3ymX9mPVi97qIY8328vdnA==
 
 prettier@^3.0.0, prettier@^3.5.0, prettier@^3.7.3:
   version "3.7.3"
@@ -4852,22 +4839,22 @@ smol-toml@^1.5.2:
   resolved "https://registry.yarnpkg.com/smol-toml/-/smol-toml-1.5.2.tgz#70d4324d47b7cccbc67d611829c9b3f6d528b02f"
   integrity sha512-QlaZEqcAH3/RtNyet1IPIYPsEWAaYyXXv1Krsi+1L/QHppjX4Ifm8MQsBISz9vE8cHicIq3clogsheili5vhaQ==
 
-sort-object-keys@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/sort-object-keys/-/sort-object-keys-1.1.3.tgz#bff833fe85cab147b34742e45863453c1e190b45"
-  integrity sha512-855pvK+VkU7PaKYPc+Jjnmt4EzejQHyhhF33q31qG8x7maDzkeFhAAThdCYay11CISO+qAMwjOBP+fPZe0IPyg==
+sort-object-keys@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/sort-object-keys/-/sort-object-keys-2.0.1.tgz#9eec95bb9276deb23649d5855b55bf489eca584b"
+  integrity sha512-R89fO+z3x7hiKPXX5P0qim+ge6Y60AjtlW+QQpRozrrNcR1lw9Pkpm5MLB56HoNvdcLHL4wbpq16OcvGpEDJIg==
 
-sort-package-json@3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/sort-package-json/-/sort-package-json-3.4.0.tgz#98e42b78848c517736b069f8aa4fa322fae56677"
-  integrity sha512-97oFRRMM2/Js4oEA9LJhjyMlde+2ewpZQf53pgue27UkbEXfHJnDzHlUxQ/DWUkzqmp7DFwJp8D+wi/TYeQhpA==
+sort-package-json@3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/sort-package-json/-/sort-package-json-3.5.0.tgz#4838ce7eea4cf1bd195553746c56eed3e8a1db27"
+  integrity sha512-moY4UtptUuP5sPuu9H9dp8xHNel7eP5/Kz/7+90jTvC0IOiPH2LigtRM/aSFSxreaWoToHUVUpEV4a2tAs2oKQ==
   dependencies:
     detect-indent "^7.0.1"
     detect-newline "^4.0.1"
     git-hooks-list "^4.0.0"
     is-plain-obj "^4.1.0"
     semver "^7.7.1"
-    sort-object-keys "^1.1.3"
+    sort-object-keys "^2.0.0"
     tinyglobby "^0.2.12"
 
 source-map-js@^1.2.1:
@@ -5503,12 +5490,7 @@ zod@^3.22.4, zod@^3.24.2:
   resolved "https://registry.yarnpkg.com/zod/-/zod-3.25.76.tgz#26841c3f6fd22a6a2760e7ccb719179768471e34"
   integrity sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==
 
-"zod@^3.25.0 || ^4.0.0", zod@^4.1.11:
-  version "4.1.12"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-4.1.12.tgz#64f1ea53d00eab91853195653b5af9eee68970f0"
-  integrity sha512-JInaHOamG8pt5+Ey8kGmdcAcg3OL9reK8ltczgHTAwNhMys/6ThXHityHxVV2p3fkw/c+MAvBHFVYHFZDmjMCQ==
-
-zod@^4.1.13:
+"zod@^3.25.0 || ^4.0.0", zod@^4.1.11, zod@^4.1.13:
   version "4.1.13"
   resolved "https://registry.yarnpkg.com/zod/-/zod-4.1.13.tgz#93699a8afe937ba96badbb0ce8be6033c0a4b6b1"
   integrity sha512-AvvthqfqrAhNH9dnfmrfKzX5upOdjUVJYFqNSlkmGf64gRaTzlPwz99IHYnVs28qYAybvAlBV+H7pn0saFY4Ig==
