@@ -1411,15 +1411,16 @@
   dependencies:
     "@tanstack/router-devtools-core" "1.158.1"
 
-"@tanstack/react-router@1.158.0":
-  version "1.158.0"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.158.0.tgz#a9546dc429df7d3541a0d8392dff33a618cb449c"
-  integrity sha512-kvTaO6zjq9WWPyo1wwSZx95AjJ9KOvu23cOMgKeDdDQWKF3Z9q3fwhToKMKJoC11T2Vuivz+o/anrxCcOvdRzw==
+"@tanstack/react-router@1.159.3":
+  version "1.159.3"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.159.3.tgz#b23f9a2ee62ed7f1aec126199477d9e23b18364d"
+  integrity sha512-VoQFmn1jR7lO2TIT+UlBNN6AWm+sBf0S7aAsCRDVI7IFuup3V/qBxKMKXDniUt3qMI1xF4gl7r7cQ2Sz8FogAw==
   dependencies:
     "@tanstack/history" "1.154.14"
     "@tanstack/react-store" "^0.8.0"
-    "@tanstack/router-core" "1.158.0"
+    "@tanstack/router-core" "1.158.4"
     isbot "^5.1.22"
+    srvx "^0.11.2"
     tiny-invariant "^1.3.3"
     tiny-warning "^1.0.3"
 
@@ -1431,10 +1432,10 @@
     "@tanstack/store" "0.8.0"
     use-sync-external-store "^1.6.0"
 
-"@tanstack/router-core@1.158.0":
-  version "1.158.0"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.158.0.tgz#332874d3b5dc70942fdb1a779fad6fe80301e821"
-  integrity sha512-dRMcWY0UB/6OZqSCx/7iUvom0ol18rHSQladygVT8mlth7uxYx3n5BNse8C03efIE8y1Bx+VDOBAKpAZ9BgKog==
+"@tanstack/router-core@1.158.1":
+  version "1.158.1"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.158.1.tgz#89e51bfd7f4941ae9fe9381d8780b4dde64483a0"
+  integrity sha512-8B9X3GzN1JWsqa+OTgg2k+LrayLQYmgtv26b96difyrRS32DaDBvEpU3xXDaLNmi/+zoqG1ffAcDT4D6tyC2hw==
   dependencies:
     "@tanstack/history" "1.154.14"
     "@tanstack/store" "^0.8.0"
@@ -1444,10 +1445,10 @@
     tiny-invariant "^1.3.3"
     tiny-warning "^1.0.3"
 
-"@tanstack/router-core@1.158.1":
-  version "1.158.1"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.158.1.tgz#89e51bfd7f4941ae9fe9381d8780b4dde64483a0"
-  integrity sha512-8B9X3GzN1JWsqa+OTgg2k+LrayLQYmgtv26b96difyrRS32DaDBvEpU3xXDaLNmi/+zoqG1ffAcDT4D6tyC2hw==
+"@tanstack/router-core@1.158.4":
+  version "1.158.4"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.158.4.tgz#0d89296b8d591ef53ae56b99a807fea8ab5bd241"
+  integrity sha512-KikgYdyrEFqsjjgv9pMhDTMmASMAyFRvUiKFdQPQtXq3aD1qv/zck4CbA4bfzp9N9nYu/qvWwU1mlYU4u5JeXg==
   dependencies:
     "@tanstack/history" "1.154.14"
     "@tanstack/store" "^0.8.0"
@@ -3501,12 +3502,12 @@ formatly@^0.3.0:
   dependencies:
     fd-package-json "^2.0.0"
 
-framer-motion@^12.31.0:
-  version "12.31.0"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-12.31.0.tgz#cf31462afa14301c90392439373ede9f8d96d77e"
-  integrity sha512-Tnd0FU05zGRFI3JJmBegXonF1rfuzYeuXd1QSdQ99Ysnppk0yWBWSW2wUsqzRpS5nv0zPNx+y0wtDj4kf0q5RQ==
+framer-motion@^12.33.0:
+  version "12.33.0"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-12.33.0.tgz#b3928ec8b3d85826922c91815ce8c6af06d02ced"
+  integrity sha512-ca8d+rRPcDP5iIF+MoT3WNc0KHJMjIyFAbtVLvM9eA7joGSpeqDfiNH/kCs1t4CHi04njYvWyj0jS4QlEK/rJQ==
   dependencies:
-    motion-dom "^12.30.1"
+    motion-dom "^12.33.0"
     motion-utils "^12.29.2"
     tslib "^2.4.0"
 
@@ -4381,10 +4382,10 @@ mlly@^1.7.4:
     pkg-types "^1.3.1"
     ufo "^1.6.1"
 
-motion-dom@^12.30.1:
-  version "12.30.1"
-  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-12.30.1.tgz#407b428cc6e21cbd944f0a4810b19e89a7759fee"
-  integrity sha512-QXB+iFJRzZTqL+Am4a1CRoHdH+0Nq12wLdqQQZZsfHlp9AMt6PA098L/61oVZsDA+Ep3QSGudzpViyRrhYhGcQ==
+motion-dom@^12.33.0:
+  version "12.33.0"
+  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-12.33.0.tgz#7001b53c119909dd6245be10c145ca1b44c7929d"
+  integrity sha512-XRPebVypsl0UM+7v0Hr8o9UAj0S2djsQWRdHBd5iVouVpMrQqAI0C/rDAT3QaYnXnHuC5hMcwDHCboNeyYjPoQ==
   dependencies:
     motion-utils "^12.29.2"
 
@@ -5128,6 +5129,11 @@ spdx-license-ids@^3.0.0:
   version "3.0.22"
   resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-3.0.22.tgz#abf5a08a6f5d7279559b669f47f0a43e8f3464ef"
   integrity sha512-4PRT4nh1EImPbt2jASOKHX7PB7I+e4IWNLvkKFDxNhJlfjbYlleYQh285Z/3mPTHSAK/AvdMmw5BNNuYH8ShgQ==
+
+srvx@^0.11.2:
+  version "0.11.2"
+  resolved "https://registry.yarnpkg.com/srvx/-/srvx-0.11.2.tgz#b12db58a6127a173e5d3a07270250d571edfdc64"
+  integrity sha512-u6NbjE84IJwm1XUnJ53WqylLTQ3BdWRw03lcjBNNeMBD+EFjkl0Cnw1RVaGSqRAo38pOHOPXJH30M6cuTINUxw==
 
 stable-hash-x@^0.2.0:
   version "0.2.0"
