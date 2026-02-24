@@ -1336,11 +1336,6 @@
   dependencies:
     "@typescript-eslint/utils" "^8.48.0"
 
-"@tanstack/history@1.154.14":
-  version "1.154.14"
-  resolved "https://registry.yarnpkg.com/@tanstack/history/-/history-1.154.14.tgz#eccbfd62a14c8364a0287ede0fb955bd6ae5aade"
-  integrity sha512-xyIfof8eHBuub1CkBnbKNKQXeRZC4dClhmzePHVOEel4G7lk/dW+TQ16da7CFdeNLv6u6Owf5VoBQxoo6DFTSA==
-
 "@tanstack/history@1.161.4":
   version "1.161.4"
   resolved "https://registry.yarnpkg.com/@tanstack/history/-/history-1.161.4.tgz#89e0b173c93e3b7ecaa7900bdc22b482962624a3"
@@ -1377,14 +1372,14 @@
   dependencies:
     "@tanstack/router-devtools-core" "1.162.2"
 
-"@tanstack/react-router@1.161.3":
-  version "1.161.3"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.161.3.tgz#b20e1fc59cf80ec3e6d5bdfb15aefb2be2ec3ab0"
-  integrity sha512-evYPrkuFt4T6E0WVyBGGq83lWHJjsYy3E5SpPpfPY/uRnEgmgwfr6Xl570msRnWYMj7DIkYg8ZWFFwzqKrSlBw==
+"@tanstack/react-router@1.162.8":
+  version "1.162.8"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.162.8.tgz#0ef84dd38fd3798e0d7313bbb2fa48f6671f13b1"
+  integrity sha512-WunoknGI5ielJ833yl/F7Vq4nv/OWzrJVBsMgyxX16Db1DwVvX/B5zTg8EMjdZUOJ7ONpvur3t4aq7KQiYRagQ==
   dependencies:
-    "@tanstack/history" "1.154.14"
+    "@tanstack/history" "1.161.4"
     "@tanstack/react-store" "^0.9.1"
-    "@tanstack/router-core" "1.161.3"
+    "@tanstack/router-core" "1.162.6"
     isbot "^5.1.22"
     tiny-invariant "^1.3.3"
     tiny-warning "^1.0.3"
@@ -1397,12 +1392,12 @@
     "@tanstack/store" "0.9.1"
     use-sync-external-store "^1.6.0"
 
-"@tanstack/router-core@1.161.3":
-  version "1.161.3"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.161.3.tgz#923e0f6bb9d284f8a869dac64f78f71967e060fc"
-  integrity sha512-8EuaGXLUjugQE9Rsb8VrWSy+wImcs/DZ9JORqUJYCmiiWnJzbat8KedQItq/9LCjMJyx4vTLCt8NnZCL+j1Ayg==
+"@tanstack/router-core@1.162.2":
+  version "1.162.2"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.162.2.tgz#d9e935765824e3c45c19484814f65fd671d103fb"
+  integrity sha512-su/X6YP7LIhiy3FWkvCb5JL2LVmfupMXavvfyuPQayWb+E1NJQhYU8dbEcSGB0sNIMZeAmz0iIBSV2MVvuzQ8g==
   dependencies:
-    "@tanstack/history" "1.154.14"
+    "@tanstack/history" "1.161.4"
     "@tanstack/store" "^0.9.1"
     cookie-es "^2.0.0"
     seroval "^1.4.2"
@@ -1410,10 +1405,10 @@
     tiny-invariant "^1.3.3"
     tiny-warning "^1.0.3"
 
-"@tanstack/router-core@1.162.2":
-  version "1.162.2"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.162.2.tgz#d9e935765824e3c45c19484814f65fd671d103fb"
-  integrity sha512-su/X6YP7LIhiy3FWkvCb5JL2LVmfupMXavvfyuPQayWb+E1NJQhYU8dbEcSGB0sNIMZeAmz0iIBSV2MVvuzQ8g==
+"@tanstack/router-core@1.162.6":
+  version "1.162.6"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.162.6.tgz#6f4078d2e5f2762cc40c103af43b8860b6fc20af"
+  integrity sha512-WFMNysDsDtnlM0G0L4LPWJuvpGatlPvBLGlPnieWYKem/Ed4mRHu7Hqw78MR/CMuFSRi9Gvv91/h8F3EVswAJw==
   dependencies:
     "@tanstack/history" "1.161.4"
     "@tanstack/store" "^0.9.1"
@@ -3504,12 +3499,12 @@ formatly@^0.3.0:
   dependencies:
     fd-package-json "^2.0.0"
 
-framer-motion@^12.34.2:
-  version "12.34.2"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-12.34.2.tgz#1861a498652e9f610a911dcb3bb439101e232c30"
-  integrity sha512-CcnYTzbRybm1/OE8QLXfXI8gR1cx5T4dF3D2kn5IyqsGNeLAKl2iFHb2BzFyXBGqESntDt6rPYl4Jhrb7tdB8g==
+framer-motion@^12.34.3:
+  version "12.34.3"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-12.34.3.tgz#946f716bfef710d564bf721f4f364274f6278fd4"
+  integrity sha512-v81ecyZKYO/DfpTwHivqkxSUBzvceOpoI+wLfgCgoUIKxlFKEXdg0oR9imxwXumT4SFy8vRk9xzJ5l3/Du/55Q==
   dependencies:
-    motion-dom "^12.34.2"
+    motion-dom "^12.34.3"
     motion-utils "^12.29.2"
     tslib "^2.4.0"
 
@@ -4371,10 +4366,10 @@ mlly@^1.7.4:
     pkg-types "^1.3.1"
     ufo "^1.6.1"
 
-motion-dom@^12.34.2:
-  version "12.34.2"
-  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-12.34.2.tgz#534ea9e641d9bddcf1c3e1035333bb41e853cafc"
-  integrity sha512-n7gknp7gHcW7DUcmet0JVPLVHmE3j9uWwDp5VbE3IkCNnW5qdu0mOhjNYzXMkrQjrgr+h6Db3EDM2QBhW2qNxQ==
+motion-dom@^12.34.3:
+  version "12.34.3"
+  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-12.34.3.tgz#56224109a20bf2cb38277bfaedeeda5151ce369d"
+  integrity sha512-sYgFe+pR9aIM7o4fhs2aXtOI+oqlUd33N9Yoxcgo1Fv7M20sRkHtCmzE/VRNIcq7uNJ+qio+Xubt1FXH3pQ+eQ==
   dependencies:
     motion-utils "^12.29.2"
 
