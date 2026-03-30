@@ -1334,14 +1334,14 @@
   dependencies:
     "@tanstack/router-devtools-core" "1.167.1"
 
-"@tanstack/react-router@1.168.6":
-  version "1.168.6"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.168.6.tgz#479a1866df5ff16240fa4fca94eeb430bb651f6f"
-  integrity sha512-RiJOkJmt3/YyvjUqe3baoG2fmia+V8I6THcH02NY6F91xsJBICeWttxuCO4+aIItsKozy5teZG3Uihw1NocO2g==
+"@tanstack/react-router@1.168.8":
+  version "1.168.8"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.168.8.tgz#e593480a7a3e8479821e10403dd01a04bea6c86f"
+  integrity sha512-t0S0QueXubBKmI9eLPcN/A1sLQgTu8/yHerjrvvsGeD12zMdw0uJPKwEKpStQF2OThQtw64cs34uUSYXBUTSNw==
   dependencies:
     "@tanstack/history" "1.161.6"
     "@tanstack/react-store" "^0.9.3"
-    "@tanstack/router-core" "1.168.5"
+    "@tanstack/router-core" "1.168.7"
     isbot "^5.1.22"
 
 "@tanstack/react-store@^0.9.3":
@@ -1352,20 +1352,20 @@
     "@tanstack/store" "0.9.3"
     use-sync-external-store "^1.6.0"
 
-"@tanstack/router-core@1.168.4":
-  version "1.168.4"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.168.4.tgz#2e182ce8fdae79be239eca4c1f5950eb485a9315"
-  integrity sha512-dhkan3B1KPDNT90UDSNtMbtedIbtI+WpYReE4d2GlgtA9m1w3FkrXe8az2UOIwKAtDea2Qlc8yv3st4Jro/gNQ==
+"@tanstack/router-core@1.168.5":
+  version "1.168.5"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.168.5.tgz#f0428de258149bfde975e8d1e818cbad22335a9d"
+  integrity sha512-k378TPlJBM1x+7ixgQL+gC+v6omN6vF31QuhOBzcISQ1oW/oyHsJf8D4OWnZ4wJD63vD2P5kXLb8QcHM419oeg==
   dependencies:
     "@tanstack/history" "1.161.6"
     cookie-es "^2.0.0"
     seroval "^1.4.2"
     seroval-plugins "^1.4.2"
 
-"@tanstack/router-core@1.168.5":
-  version "1.168.5"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.168.5.tgz#f0428de258149bfde975e8d1e818cbad22335a9d"
-  integrity sha512-k378TPlJBM1x+7ixgQL+gC+v6omN6vF31QuhOBzcISQ1oW/oyHsJf8D4OWnZ4wJD63vD2P5kXLb8QcHM419oeg==
+"@tanstack/router-core@1.168.7":
+  version "1.168.7"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.168.7.tgz#acb9640d1d1105315c7d63a402275946d5b68daf"
+  integrity sha512-z4UEdlzMrFaKBsG4OIxlZEm+wsYBtEp//fnX6kW18jhQpETNcM6u2SXNdX+bcIYp6AaR7ERS3SBENzjC/xxwQQ==
   dependencies:
     "@tanstack/history" "1.161.6"
     cookie-es "^2.0.0"
