@@ -1204,6 +1204,11 @@
   resolved "https://registry.yarnpkg.com/@tanstack/history/-/history-1.161.6.tgz#9011182f021ef7c9a6a30148570e2b1b99a12d2d"
   integrity sha512-NaOGLRrddszbQj9upGat6HG/4TKvXLvu+osAIgfxPYA+eIvYKv8GKDJOrY2D3/U9MRnKfMWD7bU4jeD4xmqyIg==
 
+"@tanstack/history@1.162.0":
+  version "1.162.0"
+  resolved "https://registry.yarnpkg.com/@tanstack/history/-/history-1.162.0.tgz#5e12a52edd82a5d6d3b081255ec899ccca335443"
+  integrity sha512-79pf/RkhteYZTRgcR4F9kbk84P2N8rugQJswxfIqovlbRiT3yI7eBE+5QorIrZaOKktsgzRlXh1l/du/xpl4iA==
+
 "@tanstack/query-core@5.100.10":
   version "5.100.10"
   resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.100.10.tgz#aeb34d301fd4ff9762e67dfa018adc33b7a18be4"
@@ -1235,14 +1240,14 @@
   dependencies:
     "@tanstack/router-devtools-core" "1.167.3"
 
-"@tanstack/react-router@1.169.2":
-  version "1.169.2"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.169.2.tgz#9590a308fa3a7369f0db7b4d6c39e64167671781"
-  integrity sha512-OJM7Kguc7ERnweaNRWsyWgIKcl3z23rD1B4jaxjzd9RGdnzpt2HfrWa9rggbT0Hfzhfo4D2ZmsfoTme035tniQ==
+"@tanstack/react-router@1.170.4":
+  version "1.170.4"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.170.4.tgz#b2e66c9b414101fd09549403fc6df513a5befdd7"
+  integrity sha512-cusL4YCTuGGJhjfsXEBm6/SmOAs/G8wRVNadeyN3ofu4OZwX69KAybBEf217buxYzI+FohdJVoigEpJV+tGzIw==
   dependencies:
-    "@tanstack/history" "1.161.6"
+    "@tanstack/history" "1.162.0"
     "@tanstack/react-store" "^0.9.3"
-    "@tanstack/router-core" "1.169.2"
+    "@tanstack/router-core" "1.171.2"
     isbot "^5.1.22"
 
 "@tanstack/react-store@^0.9.3":
@@ -1259,6 +1264,16 @@
   integrity sha512-5sm0DJF1A7Mz+9gy4Gz/lLovNailK3yot4vYvz9MkBUPw26uLnhQiR8hSCYxucjE0wD6Mdlc5l+Z0/XTlZ7xHw==
   dependencies:
     "@tanstack/history" "1.161.6"
+    cookie-es "^3.0.0"
+    seroval "^1.5.4"
+    seroval-plugins "^1.5.4"
+
+"@tanstack/router-core@1.171.2":
+  version "1.171.2"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.171.2.tgz#436f79dc324349461e3d19caff699e72d9168696"
+  integrity sha512-sUd+BhGYkBF64LVhmOHnYsc1AutPNch/huohEXiXL4IUgmk17Gy+RkUazvjQhptVdYW5QT+qtATrUr2cQZNHFA==
+  dependencies:
+    "@tanstack/history" "1.162.0"
     cookie-es "^3.0.0"
     seroval "^1.5.4"
     seroval-plugins "^1.5.4"
