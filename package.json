@@ -60,7 +60,7 @@
     "knip": "6.16.1",
     "lefthook": "2.1.9",
     "prettier": "^3.8.4",
-    "turbo": "2.9.17",
+    "turbo": "2.9.18",
     "typescript": "5.9.3",
     "vite": "npm:rolldown-vite@7.1.0",
     "vite-tsconfig-paths": "6.1.1",
