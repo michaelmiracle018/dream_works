@@ -1235,16 +1235,6 @@
     "@tanstack/store" "0.9.3"
     use-sync-external-store "^1.6.0"
 
-"@tanstack/router-core@1.171.19":
-  version "1.171.19"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.171.19.tgz#76b41818727e3d15aeeddb97b34374e24e232eda"
-  integrity sha512-uCZhgnfmuBA3PoRLIVSjUhQpJQd/HA7p0XxG1IFKnvXU9lIMZ7gIqx45hyuf9JopxXZI8k7qaz9/6PC7mZLdfQ==
-  dependencies:
-    "@tanstack/history" "1.162.1"
-    cookie-es "^3.0.0"
-    seroval "^1.6.2"
-    seroval-plugins "^1.6.2"
-
 "@tanstack/router-core@1.171.21":
   version "1.171.21"
   resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.171.21.tgz#a64693b26af68ccc3c5573a7a6e236097e522d16"
@@ -2815,10 +2805,10 @@ formatly@^0.3.0:
   dependencies:
     fd-package-json "^2.0.0"
 
-framer-motion@^13.0.0:
-  version "13.0.0"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-13.0.0.tgz#e414a927386feae443a90b677b9e172fead13e55"
-  integrity sha512-nQGZXlsiigN48nzvE7AL1GLekql+etcphp8v+PQ0X04oxO20yVmV9rU9XQ25c136RdeIYoaWlKT9oAwvJza3mg==
+framer-motion@^13.1.0:
+  version "13.1.0"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-13.1.0.tgz#e9bb655cececea4bd4ceb7cd33311b74b53953e6"
+  integrity sha512-QSZrF0Id3QGuHJ+OL+9PSY9pk86C8ERFalwAGSchzTm65+ZoGH/RM26lmEARLljcHj2lqhv0jZOOks+EI3COOw==
   dependencies:
     motion-dom "^13.0.0"
     motion-utils "^13.0.0"
