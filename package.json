@@ -52,7 +52,7 @@
     "@vitest/coverage-v8": "4.1.11",
     "@vitest/ui": "4.1.11",
     "babel-plugin-react-compiler": "19.1.0-rc.3",
-    "eslint": "^10.8.1",
+    "eslint": "^10.9.0",
     "gitzy": "7.2.2",
     "happy-dom": "20.11.6",
     "is-ci": "4.1.0",
