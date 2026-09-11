@@ -580,17 +580,17 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/retry/-/retry-0.4.3.tgz#c2b9d2e374ee62c586d3adbea87199b1d7a7a6ba"
   integrity sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==
 
-"@iconify-json/logos@1.2.13":
-  version "1.2.13"
-  resolved "https://registry.yarnpkg.com/@iconify-json/logos/-/logos-1.2.13.tgz#19b4b346d771a97426cacd0c6bbff47d1fceb4ba"
-  integrity sha512-Up54ZnIuiuBgGAsuzhR1nvKqwq8VE6YM3XLwVB6IgY+7NAasz6WKu9Ay5hGfAkfuOKowodfwDC8ozReEBYrWRg==
+"@iconify-json/logos@1.2.14":
+  version "1.2.14"
+  resolved "https://registry.yarnpkg.com/@iconify-json/logos/-/logos-1.2.14.tgz#98ed4368b199e5ba3441aca5b79ffe985284a1a7"
+  integrity sha512-O36DicXkgAMT6NAsH7MTWlOql8NktHz9fBCItTjz6L/9gyRXw4vQj6qTeVgww5UZWiVugUV1MhVFA/g9HWIkBw==
   dependencies:
     "@iconify/types" "*"
 
-"@iconify-json/lucide@1.2.129":
-  version "1.2.129"
-  resolved "https://registry.yarnpkg.com/@iconify-json/lucide/-/lucide-1.2.129.tgz#6cf8982f5fd63d46f98d3c11c107fd2452ca24d5"
-  integrity sha512-pa0ufllJOXTDIH2BxE/BtWQEf/x46/lINDWcmncICV1/52veZ7KSBzQaVh9xDpmjDs8QN4j2Ex/LWlSSveL3yw==
+"@iconify-json/lucide@1.2.130":
+  version "1.2.130"
+  resolved "https://registry.yarnpkg.com/@iconify-json/lucide/-/lucide-1.2.130.tgz#5bb8e42066bfb8bc62b2485978d0d035344fb8bf"
+  integrity sha512-rRH6qHEDEaFMOkRJPbT8fBYPLP/2GHi3Q2+iDyTDuX4l5PT/GMKs6Dn9JkL7cHtCkIWKnyYWopmMlFpNek1Fcw==
   dependencies:
     "@iconify/types" "*"
 
@@ -1105,11 +1105,6 @@
   dependencies:
     "@typescript-eslint/utils" "^8.58.1"
 
-"@tanstack/history@1.162.1":
-  version "1.162.1"
-  resolved "https://registry.yarnpkg.com/@tanstack/history/-/history-1.162.1.tgz#2e0a5052220c2ade74b91013c7956a9f26c35645"
-  integrity sha512-DR9t6lfLVdrjgCwpglrR9DR7Ok8/HlXjcOE+goWXF3zyuLUO/ug7vMbSFxTqrQTtbRghJfyhmIZ0S6LhPIy44w==
-
 "@tanstack/history@1.162.2":
   version "1.162.2"
   resolved "https://registry.yarnpkg.com/@tanstack/history/-/history-1.162.2.tgz#851da088ed25082c77e08f9c674d422bc8c2b1fd"
@@ -1163,16 +1158,6 @@
   dependencies:
     "@tanstack/store" "0.9.3"
     use-sync-external-store "^1.6.0"
-
-"@tanstack/router-core@1.171.27":
-  version "1.171.27"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.171.27.tgz#98e1c2dac311a2a5ca1e5b6829299d6b3b31fe9b"
-  integrity sha512-wDwSLvoLwIaNcnx9UNcN9Mb7Y8QwCYq1U1RQZwyN186gnkIoIYI2SOxy8VqH1vFigbkHkk4FmwMAQlghPgDK2g==
-  dependencies:
-    "@tanstack/history" "1.162.1"
-    cookie-es "^3.0.0"
-    seroval "^1.6.2"
-    seroval-plugins "^1.6.2"
 
 "@tanstack/router-core@1.171.28":
   version "1.171.28"
