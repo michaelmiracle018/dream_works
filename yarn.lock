@@ -702,10 +702,10 @@
   dependencies:
     "@iconify/types" "*"
 
-"@iconify-json/lucide@1.2.134":
-  version "1.2.134"
-  resolved "https://registry.yarnpkg.com/@iconify-json/lucide/-/lucide-1.2.134.tgz#a536cf64147ec89c98933306a09d1729193fcb0a"
-  integrity sha512-MXzwT7H8Ii/aGN6NLtMbMLDaxLYsOxCKEdW0F5h3MemNUaUBqAxr9nz0mPlXzozd/piQyrdSiUyk0t5b5ErADg==
+"@iconify-json/lucide@1.2.135":
+  version "1.2.135"
+  resolved "https://registry.yarnpkg.com/@iconify-json/lucide/-/lucide-1.2.135.tgz#95c9d7a0afe9cbe5a3776207ab27b15164154697"
+  integrity sha512-M2RbCJMe/ZwRzGBxNGbqP3kEQ74iJjQyJsw5FgVQw+Kp8eJPQF1S19fiGJChG4yYLg73c8Z/fMnm07GTXUxmQA==
   dependencies:
     "@iconify/types" "*"
 
