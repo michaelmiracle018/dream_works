@@ -1363,11 +1363,6 @@
   dependencies:
     remove-accents "0.5.0"
 
-"@tanstack/query-core@5.104.1":
-  version "5.104.1"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.104.1.tgz#c9819a22f8183e423bbe04b71780a4e17b42aff8"
-  integrity sha512-TiRghcrGkUTE+M4JBxvpPSpBhxvIzQairw+cksrHYGr+2uwC77yW1SY9nYxnYRYOppvucf8rEg6b5byoz4rTpw==
-
 "@tanstack/query-core@5.104.2":
   version "5.104.2"
   resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.104.2.tgz#f06a6938160edcd09d22def172c381895b81627d"
@@ -1397,12 +1392,12 @@
   dependencies:
     "@tanstack/query-devtools" "5.104.2"
 
-"@tanstack/react-query@5.104.1":
-  version "5.104.1"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.104.1.tgz#c9c6b66ea96f8b5f73f4f3491b1776036a3c5456"
-  integrity sha512-Zz70EgjahNI7aCz8BZxM3vUGU44ycxEAzMuCUjLeA7SVhhOkg3ZgPjPJPvHjs6Rmky/dtmnu1WzjGHNHmhCoZQ==
+"@tanstack/react-query@5.104.2":
+  version "5.104.2"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.104.2.tgz#1bc67e7c777605d2638ca5dd6887006c3534e2e6"
+  integrity sha512-xKmzWGhadbE5wGS/ZmXShRITnI9oItox5GO14KvFZco3+vhTAyXS1erYzJWdiY280zapAGJXFUL9nHgwP6SV/g==
   dependencies:
-    "@tanstack/query-core" "5.104.1"
+    "@tanstack/query-core" "5.104.2"
 
 "@tanstack/react-router-devtools@1.167.2":
   version "1.167.2"
@@ -1411,14 +1406,14 @@
   dependencies:
     "@tanstack/router-devtools-core" "1.168.2"
 
-"@tanstack/react-router@1.170.42":
-  version "1.170.42"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.170.42.tgz#9352cf33dda2cc93c2ae6de5626355b4f3aa1cfd"
-  integrity sha512-4wBptX7DRvc+v/XQ0MxL9rKlmSFb0ob3tSEZWF4ssSl1DD+1HAofWM3HwSn9liQN0r7e00qiv5WQMp6rObOc1g==
+"@tanstack/react-router@1.170.44":
+  version "1.170.44"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-1.170.44.tgz#5c2388d1305cbdd68a7ad4581e7359c0fc8c31d0"
+  integrity sha512-uIIZ3CHU1yWlkMkmbnGFX3WIfZozF+tNrOMMEoM9lo+jzPInCRq80LBqW3DH9ixNHWjB3TM/cNIvr05uGIlP3A==
   dependencies:
     "@tanstack/history" "1.162.5"
     "@tanstack/react-store" "^0.11.2"
-    "@tanstack/router-core" "1.171.35"
+    "@tanstack/router-core" "1.171.37"
     isbot "^5.1.22"
 
 "@tanstack/react-store@^0.11.2":
@@ -1433,6 +1428,16 @@
   version "1.171.35"
   resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.171.35.tgz#adb73cfdb8df17194ad0c7bfcf0e6981067b4913"
   integrity sha512-fNKsx/rrxppFNmCQ9mPwg4OCb1O3qfLPVrE9FVyyWyRPQk0f0NK5bdJUzTYZQ+T/Ajfllr3SEx9pntM45F5amQ==
+  dependencies:
+    "@tanstack/history" "1.162.5"
+    cookie-es "^3.0.0"
+    seroval "^1.6.7"
+    seroval-plugins "^1.6.7"
+
+"@tanstack/router-core@1.171.37":
+  version "1.171.37"
+  resolved "https://registry.yarnpkg.com/@tanstack/router-core/-/router-core-1.171.37.tgz#dd5b3e8f0a12f5b29cda007e594696c03916f976"
+  integrity sha512-11Le36++mHNeeFIABz4C3PdTWyJ1ilOmGmANOQOypknZwC1xN674al5BUqWuimKasWane1/XSNcEx8NYNHh0+A==
   dependencies:
     "@tanstack/history" "1.162.5"
     cookie-es "^3.0.0"
