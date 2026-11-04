@@ -2999,12 +2999,12 @@ formatly@^0.11.4:
     fd-package-json "^2.0.0"
     package-manager-detector "^1.8.0"
 
-framer-motion@^14.8.0:
-  version "14.8.0"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-14.8.0.tgz#bbc261ebe5198898d2464659228c0bee0a553b59"
-  integrity sha512-PQsSx+UlaKiyPhADjVT5wALBErJJdbMeKQS4gQx6ibOrSNni7qjqfTKMvf6YHGG8pQWi6njs7AqrIG7R2hbnxA==
+framer-motion@^14.9.0:
+  version "14.9.0"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-14.9.0.tgz#d4813a846e9214edac8cdf0653ae907b5c0d6137"
+  integrity sha512-g1hZu8WoTwgsoVAaqEEcefhvR03cKGtkmrKaRrWpXhnM3LGR8jl1u2qyJ1PMVlO7LKQHE8TTRQYUlMmnrY4L+g==
   dependencies:
-    motion-dom "14.8.0"
+    motion-dom "14.9.0"
     motion-utils "14.7.0"
     tslib "^2.4.0"
 
@@ -3515,10 +3515,10 @@ mlly@^1.7.4:
     pkg-types "^1.3.1"
     ufo "^1.6.1"
 
-motion-dom@14.8.0:
-  version "14.8.0"
-  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-14.8.0.tgz#9600229440904e7b3999fbd1695ff3f3b690b078"
-  integrity sha512-HzA41kvV7BgluM7L/XbW+gHFzDtJUbHnEsrlnIzPS9dqSfoPy9YzL6VKF7ai0TiQcykkkLUqvIxECAdwa9gwAw==
+motion-dom@14.9.0:
+  version "14.9.0"
+  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-14.9.0.tgz#b29229de4740f9d98f621835945051a13c291d53"
+  integrity sha512-wGjKbNDMHd75aLStkxLCKZ+T8/wusZHklmNLK1Ak68UrdBt2X8I4yweYR/0WonxGnBsw6oloDTIV8pN+UTvzzA==
   dependencies:
     motion-utils "14.7.0"
 
@@ -4134,10 +4134,10 @@ superjson@^2.2.6:
   dependencies:
     copy-anything "^4"
 
-swiper@^14.3.0:
-  version "14.3.0"
-  resolved "https://registry.yarnpkg.com/swiper/-/swiper-14.3.0.tgz#fa6cc16df408e2838979ebb4ea3a41b3b7987339"
-  integrity sha512-qw0Xv1+sylM8KCQxWxV2iYAK2G6XjFGPZ/8F1baEsY8DK4A3sTnLx6jUJ0G71rDbVQ05JHMWkcWmJ5NvlxZO0w==
+swiper@^14.4.0:
+  version "14.4.0"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-14.4.0.tgz#9c6a7f787e1afdb52862e3f2c7c0d16bc3652108"
+  integrity sha512-6axnAuBsttFJe0gwsM5tT203/Bts0vcI+FwIX6dqFE4pUFVW6qrdRprNFQVxOYMW7V0S6A/KIqJ6JaPpNN2MCw==
 
 synckit@0.11.11, synckit@^0.11.0:
   version "0.11.11"
