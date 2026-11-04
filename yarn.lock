@@ -705,10 +705,10 @@
   dependencies:
     "@iconify/types" "*"
 
-"@iconify-json/lucide@1.2.149":
-  version "1.2.149"
-  resolved "https://registry.yarnpkg.com/@iconify-json/lucide/-/lucide-1.2.149.tgz#192cf06fa2bb2ebdebb79a1eec7f521b29dd1f87"
-  integrity sha512-5NG9YdbtRS03hG1A+EIE6nLhhdAYsf0mKu1ZRi6kLMlCG8DxmDsRM6DAhwlNMLiSiQKFbHpKTJ2VddZdwUkUyw==
+"@iconify-json/lucide@1.2.150":
+  version "1.2.150"
+  resolved "https://registry.yarnpkg.com/@iconify-json/lucide/-/lucide-1.2.150.tgz#6da194a056136f0bd4deb0f1d4747d522489a78c"
+  integrity sha512-av3IH1CB8RuKrlKGDmBbt6dLYtZus1Vr89VOysxORLhKcTr4ARe4Dmp0gL7Q47sK9GMkyROn1a+h07tAYpSuEw==
   dependencies:
     "@iconify/types" "*"
 
@@ -3261,10 +3261,10 @@ keyv@^5.6.0:
   dependencies:
     "@keyv/serialize" "^1.1.1"
 
-knip@6.44.0:
-  version "6.44.0"
-  resolved "https://registry.yarnpkg.com/knip/-/knip-6.44.0.tgz#85838de02a17509d0a849f1ab62a549c262d5866"
-  integrity sha512-mT0fl71Mqrko91azUO2Jw/uhYKwldORKT4liRq6yV0ZAtt6G2eYusdnvx8eBSQJDjvhRGKkpKUUx+vUG6syV4w==
+knip@6.44.1:
+  version "6.44.1"
+  resolved "https://registry.yarnpkg.com/knip/-/knip-6.44.1.tgz#3bdd3fe5c65383e7d305adc88f8ed1e33f70c6b2"
+  integrity sha512-Hbd8nvkIsNgFfXgC7Jsb5LHv7jj6VwA3tmfHd53XPX2z9Vc9RnAZqV0BIiP4OrtYqKwCoLseFHQZerb1bNlbSw==
   dependencies:
     formatly "^0.11.4"
     get-tsconfig "4.14.3"
