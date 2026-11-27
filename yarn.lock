@@ -1376,38 +1376,33 @@
   dependencies:
     remove-accents "0.5.0"
 
-"@tanstack/query-core@5.108.3":
-  version "5.108.3"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.108.3.tgz#404e84ce38ab1c151a990a16800e479719294a70"
-  integrity sha512-Lh8fyLDlHOdZXfUB+G1M5bKxfQ1Y0/mfydFP+pMjFKweAU4OUiC4MyIBTcW7Ck+Iwt6K3/pzvADrJi2Dc1lwuQ==
-
 "@tanstack/query-core@5.108.4":
   version "5.108.4"
   resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.108.4.tgz#c1fcda6970a99b90b5a12598dd30e4f42bd0f440"
   integrity sha512-2Ks5dlLWz4eXJrthOyG0qW3SLt3xx0RrQmAmN0rnmogiaaOYuWiAe6HAm9KE2b2v8nig+vraNz8fsfZ6fF6zFg==
 
-"@tanstack/query-devtools@5.108.3":
-  version "5.108.3"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-devtools/-/query-devtools-5.108.3.tgz#82f13359e4206a201e74b55a2ce3f5b05787f108"
-  integrity sha512-FG1i34kzU20+NPYErxOhEGe7x5Vitjz/gTbzuqsI+B+FQOaqw8pT6Y5BBoRJpOdyS5rh5sITLNNH1x1H68PMKQ==
+"@tanstack/query-devtools@5.108.4":
+  version "5.108.4"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-devtools/-/query-devtools-5.108.4.tgz#980b9d00b1ebeceae282966f1e3c35b690f01a95"
+  integrity sha512-jSlDCeqn2mqxsGeey4qtFIQlxZNWaKVu1x0wTAf86654rHuh6RLikAFrcDpaQ1EIKUYuL1/FxQtrzfGpd7TeFw==
   dependencies:
     "@kobalte/core" "^0.13.14"
     "@solid-primitives/keyed" "^1.5.3"
     "@solid-primitives/resize-observer" "^2.2.0"
     "@solid-primitives/storage" "^1.3.11"
     "@tanstack/match-sorter-utils" "^9.1.2"
-    "@tanstack/query-core" "5.108.3"
+    "@tanstack/query-core" "5.108.4"
     "@tanstack/solid-virtual" "^3.13.52"
     solid-js "^1.9.20"
     solid-transition-group "^0.2.3"
     superjson "^2.2.6"
 
-"@tanstack/react-query-devtools@5.108.3":
-  version "5.108.3"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query-devtools/-/react-query-devtools-5.108.3.tgz#151cfb9914104acbdb2429b803d5f93807a89967"
-  integrity sha512-G+Ey+03pc+L9j5VkNNQU0CVQ3ql46xP3uP5VJ1LEJ3qr+6kriOzEgRXQEQons2nxc+GQbJBHfu/4UUEOa+smXQ==
+"@tanstack/react-query-devtools@5.108.4":
+  version "5.108.4"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query-devtools/-/react-query-devtools-5.108.4.tgz#a54b1487b77ed5854f25a877413f14b704ef8b91"
+  integrity sha512-1JAqJUAot32ZL4b7bkDdhF94q6PTO3vLBikwqYjNt3Ou4bOrWSt/RxFJTk9ku8z4aBQYzQxPYGncmx8PBfq9og==
   dependencies:
-    "@tanstack/query-devtools" "5.108.3"
+    "@tanstack/query-devtools" "5.108.4"
 
 "@tanstack/react-query@5.108.4":
   version "5.108.4"
